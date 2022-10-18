@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    padding: 8px;
+    margin: 16px;
+    font-size: 60px;
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+.button:hover {
+    cursor: pointer;
+    scale: 1.1;
+}

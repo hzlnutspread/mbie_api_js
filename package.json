@@ -1,0 +1,24 @@
+{
+  "name": "mbie_api",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-router": "^0.0.1",
+    "node-fetch": "^3.2.10"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

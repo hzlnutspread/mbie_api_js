@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+
+.welcome-message-container {
+    height: 100%;
+    width: 100%;
+    background: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10%;
+}
+
+.welcome-message,
+.welcome-description {
+    font-size: 60px;
+    color: white;
+}
